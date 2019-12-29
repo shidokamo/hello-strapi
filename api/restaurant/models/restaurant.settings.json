@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "restaurants",
   "info": {
     "name": "restaurant"
   },
@@ -14,8 +16,10 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "categories": {
+      "via": "restaurants",
+      "collection": "category"
     }
-  },
-  "connection": "default",
-  "collectionName": "restaurants"
+  }
 }
