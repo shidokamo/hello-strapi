@@ -1,5 +1,6 @@
-# Hello Strapi and Heroku
+# Hello Strapi and Heroku (PostgreSQL)
 Strapi を Heroku にデプロイするサンプルです。
+データベースには、PostgreSQL を使います。
 
 ## Heroku の設定
 環境変数には、`heroku config`から得たデータベースの情報を設定してください。
